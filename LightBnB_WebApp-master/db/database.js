@@ -1,6 +1,15 @@
 const properties = require("./json/properties.json");
 const users = require("./json/users.json");
 
+const { Pool } = require('pg');
+
+const pool = new Pool({
+  user: 'vagrant',
+  password: '123',
+  host: 'localhost',
+  database: 'lightbnb'
+});
+
 /// Users
 
 /**
@@ -12,7 +21,7 @@ const getUserWithEmail = function (email) {
   let resolvedUser = null;
   for (const userId in users) {
     const user = users[userId];
-    if (user?.email.toLowerCase() === email?.toLowerCase()) {
+    if (user && user.email.toLowerCase() === email.toLowerCase()) {
       resolvedUser = user;
     }
   }
