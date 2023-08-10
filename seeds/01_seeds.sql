@@ -2,7 +2,7 @@ INSERT INTO users (name, email, password)
 VALUES ('Darth Vader', 'vader@thegalacticempire.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'), 
 ('Luke Skywalker', 'luke@rebelalliance.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'), 
 ('Lando Calrissian', 'lando@cloudcity.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.'),
-('Jabba the Hutt', 'jabba@jabbaspalace.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');;
+('Jabba the Hutt', 'jabba@jabbaspalace.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 INSERT INTO properties (owner_id , title , description , thumbnail_photo_url , cover_photo_url , cost_per_night , parking_spaces , number_of_bathrooms , number_of_bedrooms , country , street , city , province , post_code , active)
   VALUES (1, 'The Death Star', 'description' , 'https://thumbnail_url' , 'https://cover_url' , 500 , 1 , 1 , 2 , 'Galactic Empire', 'Galactic Orbit', 'Death Star', 'Despayre' , '99999' , true), 
