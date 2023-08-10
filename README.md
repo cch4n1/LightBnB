@@ -1,17 +1,60 @@
-Lighthouse BnB is a revolutionary app that will allow homeowners to rent out their homes to people on vacation. Users can view property information, book reservations, view their reservations, and write reviews. It is constructed using Node.js and PostgreSQL.
+
+# 🏠 Lighthouse BNB 🏖️ 🧳
+Lighthouse BnB is a revolutionary new app that will allow homeowners to rent out their homes to people on vacation. Users can view property information, book reservations, view their reservations, and write reviews. It is constructed using Node.js and PostgreSQL.
 
 ## Features
 
-Login - Users can manage their own account by logging in where they will be able to unlock additional features such as creating/managing their listings and searching for other listings.
+**Browse Listings** - Users can browse through property listngs that have been submitted by other users.
 
-Search  - Users can search through property listings based on specific criteria such as  
+**Login** - Users can manage their own account by logging in where they will be able to unlock additional features such as creating/managing their listings and searching for other listings.
 
-Create Listing
+**Search** - Users can search through property listings based on specific search criteria such as city, price range and rating
+
+**Create Listing** - Users can create their own property listing by submitting a form on the *Create Listing* 
 
 ## To Start:
 
-Download all files
-install dependencies
+1. Fork this repository and then clone it to your directory in terminal to create a local copy.
 
-make sure psql is installed
-In psql terminal, create database called lightbnb 
+2. In terminal, go to psql and create a database called lightbnb: 
+```
+CREATE DATABASE lightbnb;
+```
+
+3. Connect to database:
+```
+\c lightbnb
+```
+
+4. Set up database tables:
+```
+Create database tables:
+\i migrations/01_schema.sql
+```
+
+5. Check the following tables have been created:
+- properties
+- property_reviews
+- reservations
+- users
+```
+\dt
+```
+
+6. Populate database data:
+```
+\i seeds/01_seeds.sql
+\i seeds/02_seeds.sql
+```
+
+7. Exit psql in terminal and go to project folder: `/lightbnb/LightBnB_WebApp` to install dependencies: 
+```
+npm install
+```
+
+8. Go to main project folder `/lightbnb` to start server:
+```
+npm run local
+```
+
+10. In web browser, go to http://localhost:3000/ to access 
