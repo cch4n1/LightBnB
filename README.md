@@ -12,6 +12,28 @@ Lighthouse BnB is a revolutionary new app that will allow homeowners to rent out
 
 **Create Listing** - Users can create their own property listing by submitting a form on the *Create Listing* 
 
+## Screenshots
+
+### Browse Home Page
+![Home Page](./images/lbnb-browse.png)
+
+### Search Listings
+![Search](./images/lbnb-search.png)
+
+### Create Listing
+![Create Listing](./images/lbnb-create-listing.png)
+
+### My Listings Page
+![My Listings](./images/lbnb-my-listings.png)
+
+### Login Page
+![Login](./images/lbnb-login.png)
+
+### Sign Up Page
+![Sign Up](./images/lbnb-signup.png)
+
+
+
 ## To Start:
 
 1. Fork this repository and then clone it to your directory in terminal to create a local copy.
