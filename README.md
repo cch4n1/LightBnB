@@ -6,11 +6,11 @@ Lighthouse BnB is a revolutionary new app that will allow homeowners to rent out
 
 **Browse Listings** - Users can browse through property listngs that have been submitted by other users.
 
-**Login** - Users can manage their own account by logging in where they will be able to unlock additional features such as creating/managing their listings and searching for other listings.
+**Login** - Users can manage their own account by signing up or logging in. Then they will be able to unlock additional features such as creating/managing their listings and searching for other listings.
 
-**Search** - Users can search through property listings based on specific search criteria such as city, price range and rating
+**Search** - Users can search through property listings based on specific search criteria such as city, price range and rating.
 
-**Create Listing** - Users can create their own property listing by submitting a form on the *Create Listing* 
+**Create Listing** - Users can create their own property listing by submitting a form on the *Create Listing* page.
 
 ## Screenshots
 
